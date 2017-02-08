@@ -1,7 +1,7 @@
 <?php 
 	//REF: http://www.redbeanphp.com/index.php
 	require_once('lib/rb.php');
-	R::setup( 'mysql:host=127.0.0.1;dbname=pa','pa', 'pressione' );
+	//R::setup( 'mysql:host=127.0.0.1;dbname=pa','pa', 'pressione' );
 	
 	$pg=(empty($_REQUEST['p'])) ? 'home' : $_REQUEST['p'];
 	$pg='pgs/'.$pg.'.php';

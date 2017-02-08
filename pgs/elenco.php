@@ -18,17 +18,7 @@
 			}
 			R::store($record);
                         
-//                    if(($i->sistolica) <= ($i->diastolica)){
-//                        foreach ($_POST as $k=>$v){
-//				$record[$k]=$_POST[$k];
-//			}
-//			R::store($record);
-//                    }else{
-//                        foreach ($_POST as $k=>$v){
-//				$record[$k]=$_POST[$k];
-//			}
-//			R::trash($record);
-//                    }
+
 		}
 	} catch (RedBeanPHP\RedException\SQL $e) {
 		?>
